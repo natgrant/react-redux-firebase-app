@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: url(/img/dash.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-color: #95e8f3;
   min-height: 100%;
 }
