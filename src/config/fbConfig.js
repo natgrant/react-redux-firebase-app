@@ -4,7 +4,7 @@ import "firebase/firestore";
 import "firebase/auth";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAQqJT47Aal6kk1wl9QDs5KNQUIGDObleQ",
+  apiKey: process.env.FB_KEY,
   authDomain: "first-firebase-app-43db8.firebaseapp.com",
   databaseURL: "https://first-firebase-app-43db8.firebaseio.com",
   projectId: "first-firebase-app-43db8",
